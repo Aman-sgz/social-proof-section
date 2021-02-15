@@ -16,21 +16,19 @@ body {
   background-color: var(--white); 
 }
 
-.container__all {
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 2px solid blue;
 }
 
-.container__div {
+.header-container {
   margin-top: 3rem;
 } 
 
 .header {
   text-align: center;
   color: var(--very-dark-magenta);
-  border: 2px solid yellow;
 }
 
 .header__title {
@@ -38,11 +36,9 @@ body {
   margin-bottom: 1.5rem;
   font-weight: 900;
   line-height: 1.1;
-  border: 2px solid pink;
 }
 
 .header__subtitle {
-  border: 2px solid pink;
   font-weight: 400; 
   font-size: 15px;
   line-height: 1.5;
@@ -53,11 +49,9 @@ body {
   flex-direction: column;
   align-items: center;
   margin-top: 1.5rem;
-  border: 2px solid red;
 }
 
 .rated {
-  display: inline-block;
   width: 280px;
   height: 40px;
   margin-bottom: 1.3rem;
@@ -70,18 +64,13 @@ body {
 .rated__text {
   padding-bottom: .7rem;
   font-weight: bolder;
-  color: var(--very-dark-magenta);
   text-align: center;
+  color: var(--very-dark-magenta);
 }
 
 .testimonials {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   margin-top: .5rem;
   margin-bottom: 5rem;
-  border: 2px solid yellow;
 }
 
 .testimonial {
@@ -137,11 +126,12 @@ body {
   padding: 1rem .5rem;
 }
 
-.attribution {
+.footer__attribution {
   font-size: 11px;
   text-align: center;
+  color: var(--very-dark-magenta);
 }
 
-.attribution a {
-  color: hsl(228, 45%, 44%);
+.footer__link {
+  color: hsl(214, 57%, 69%);
 } 
