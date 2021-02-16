@@ -59,6 +59,9 @@
     .rates {
         width: 50%;
     }
+    .rated {
+        width: 390px;
+    }
     .rated__star {
         padding: .2rem;
     }
