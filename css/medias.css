@@ -1,7 +1,7 @@
 @media screen and (min-width: 768px) {
     body {
         background-image: url(../images/bg-pattern-top-desktop.svg), url(../images/bg-pattern-bottom-desktop.svg);
-        background-position: right 70vw top 0, left 10vw bottom 0;
+        background-position: right 70vw top 0, right 0vw bottom 0;
     }
 
     .header-container {
